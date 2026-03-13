@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3">
+  <meta lastmodifieddate="2026-03-08">
+    <creator>ChatGPT</creator>
+    <description>New Testament Love Density Network</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="num_chapters" title="numbers_per_chapters_per_book" type="integer"/>
+      <attribute id="avg_date" title="year_when_written" type="integer"/>
+      <attribute id="num_hits" title="how_often_it_appears_in_the_text" type="integer"/>
+      <attribute id="love_den" title="love_density" type="float"/>
+    </attributes>
+
+    <nodes>
+      <node id="matthew" label="Matthew">
+        <attvalues>
+          <attvalue for="num_chapters" value="28"/>
+          <attvalue for="avg_date" value="80"/>
+          <attvalue for="num_hits" value="12"/>
+          <attvalue for="love_den" value="0.43"/>
+        </attvalues>
+      </node>
+
+      <node id="mark" label="Mark">
+        <attvalues>
+          <attvalue for="num_chapters" value="16"/>
+          <attvalue for="avg_date" value="65"/>
+          <attvalue for="num_hits" value="6"/>
+          <attvalue for="love_den" value="0.38"/>
+        </attvalues>
+      </node>
+
+      <node id="luke" label="Luke">
+        <attvalues>
+          <attvalue for="num_chapters" value="24"/>
+          <attvalue for="avg_date" value="80"/>
+          <attvalue for="num_hits" value="14"/>
+          <attvalue for="love_den" value="0.58"/>
+        </attvalues>
+      </node>
+
+      <node id="john" label="John">
+        <attvalues>
+          <attvalue for="num_chapters" value="21"/>
+          <attvalue for="avg_date" value="90"/>
+          <attvalue for="num_hits" value="39"/>
+          <attvalue for="love_den" value="1.86"/>
+        </attvalues>
+      </node>
+
+      <node id="acts" label="Acts">
+        <attvalues>
+          <attvalue for="num_chapters" value="28"/>
+          <attvalue for="avg_date" value="85"/>
+          <attvalue for="num_hits" value="7"/>
+          <attvalue for="love_den" value="0.25"/>
+        </attvalues>
+      </node>
+
+      <node id="romans" label="Romans">
+        <attvalues>
+          <attvalue for="num_chapters" value="16"/>
+          <attvalue for="avg_date" value="57"/>
+          <attvalue for="num_hits" value="17"/>
+          <attvalue for="love_den" value="1.06"/>
+        </attvalues>
+      </node>
+
+      <node id="first_corinthians" label="1 Corinthians">
+        <attvalues>
+          <attvalue for="num_chapters" value="16"/>
+          <attvalue for="avg_date" value="55"/>
+          <attvalue for="num_hits" value="16"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="second_corinthians" label="2 Corinthians">
+        <attvalues>
+          <attvalue for="num_chapters" value="13"/>
+          <attvalue for="avg_date" value="56"/>
+          <attvalue for="num_hits" value="9"/>
+          <attvalue for="love_den" value="0.69"/>
+        </attvalues>
+      </node>
+
+      <node id="galatians" label="Galatians">
+        <attvalues>
+          <attvalue for="num_chapters" value="6"/>
+          <attvalue for="avg_date" value="49"/>
+          <attvalue for="num_hits" value="5"/>
+          <attvalue for="love_den" value="0.83"/>
+        </attvalues>
+      </node>
+
+      <node id="ephesians" label="Ephesians">
+        <attvalues>
+          <attvalue for="num_chapters" value="6"/>
+          <attvalue for="avg_date" value="62"/>
+          <attvalue for="num_hits" value="16"/>
+          <attvalue for="love_den" value="2.67"/>
+        </attvalues>
+      </node>
+
+      <node id="philippians" label="Philippians">
+        <attvalues>
+          <attvalue for="num_chapters" value="4"/>
+          <attvalue for="avg_date" value="61"/>
+          <attvalue for="num_hits" value="6"/>
+          <attvalue for="love_den" value="1.50"/>
+        </attvalues>
+      </node>
+
+      <node id="colossians" label="Colossians">
+        <attvalues>
+          <attvalue for="num_chapters" value="4"/>
+          <attvalue for="avg_date" value="61"/>
+          <attvalue for="num_hits" value="6"/>
+          <attvalue for="love_den" value="1.50"/>
+        </attvalues>
+      </node>
+
+      <node id="first_thessalonians" label="1 Thessalonians">
+        <attvalues>
+          <attvalue for="num_chapters" value="5"/>
+          <attvalue for="avg_date" value="50"/>
+          <attvalue for="num_hits" value="5"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="second_thessalonians" label="2 Thessalonians">
+        <attvalues>
+          <attvalue for="num_chapters" value="3"/>
+          <attvalue for="avg_date" value="51"/>
+          <attvalue for="num_hits" value="3"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="first_timothy" label="1 Timothy">
+        <attvalues>
+          <attvalue for="num_chapters" value="6"/>
+          <attvalue for="avg_date" value="63"/>
+          <attvalue for="num_hits" value="6"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="second_timothy" label="2 Timothy">
+        <attvalues>
+          <attvalue for="num_chapters" value="4"/>
+          <attvalue for="avg_date" value="65"/>
+          <attvalue for="num_hits" value="4"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="titus" label="Titus">
+        <attvalues>
+          <attvalue for="num_chapters" value="3"/>
+          <attvalue for="avg_date" value="63"/>
+          <attvalue for="num_hits" value="4"/>
+          <attvalue for="love_den" value="1.33"/>
+        </attvalues>
+      </node>
+
+      <node id="philemon" label="Philemon">
+        <attvalues>
+          <attvalue for="num_chapters" value="1"/>
+          <attvalue for="avg_date" value="60"/>
+          <attvalue for="num_hits" value="3"/>
+          <attvalue for="love_den" value="3.00"/>
+        </attvalues>
+      </node>
+
+      <node id="hebrews" label="Hebrews">
+        <attvalues>
+          <attvalue for="num_chapters" value="13"/>
+          <attvalue for="avg_date" value="65"/>
+          <attvalue for="num_hits" value="6"/>
+          <attvalue for="love_den" value="0.46"/>
+        </attvalues>
+      </node>
+
+      <node id="james" label="James">
+        <attvalues>
+          <attvalue for="num_chapters" value="5"/>
+          <attvalue for="avg_date" value="48"/>
+          <attvalue for="num_hits" value="3"/>
+          <attvalue for="love_den" value="0.60"/>
+        </attvalues>
+      </node>
+
+      <node id="first_peter" label="1 Peter">
+        <attvalues>
+          <attvalue for="num_chapters" value="5"/>
+          <attvalue for="avg_date" value="64"/>
+          <attvalue for="num_hits" value="8"/>
+          <attvalue for="love_den" value="1.60"/>
+        </attvalues>
+      </node>
+
+      <node id="second_peter" label="2 Peter">
+        <attvalues>
+          <attvalue for="num_chapters" value="3"/>
+          <attvalue for="avg_date" value="68"/>
+          <attvalue for="num_hits" value="2"/>
+          <attvalue for="love_den" value="0.67"/>
+        </attvalues>
+      </node>
+
+      <node id="first_john" label="1 John">
+        <attvalues>
+          <attvalue for="num_chapters" value="5"/>
+          <attvalue for="avg_date" value="95"/>
+          <attvalue for="num_hits" value="46"/>
+          <attvalue for="love_den" value="9.20"/>
+        </attvalues>
+      </node>
+
+      <node id="second_john" label="2 John">
+        <attvalues>
+          <attvalue for="num_chapters" value="1"/>
+          <attvalue for="avg_date" value="95"/>
+          <attvalue for="num_hits" value="5"/>
+          <attvalue for="love_den" value="5.00"/>
+        </attvalues>
+      </node>
+
+      <node id="third_john" label="3 John">
+        <attvalues>
+          <attvalue for="num_chapters" value="1"/>
+          <attvalue for="avg_date" value="95"/>
+          <attvalue for="num_hits" value="3"/>
+          <attvalue for="love_den" value="3.00"/>
+        </attvalues>
+      </node>
+
+      <node id="jude" label="Jude">
+        <attvalues>
+          <attvalue for="num_chapters" value="1"/>
+          <attvalue for="avg_date" value="65"/>
+          <attvalue for="num_hits" value="1"/>
+          <attvalue for="love_den" value="1.00"/>
+        </attvalues>
+      </node>
+
+      <node id="revelation" label="Revelation">
+        <attvalues>
+          <attvalue for="num_chapters" value="22"/>
+          <attvalue for="avg_date" value="96"/>
+          <attvalue for="num_hits" value="4"/>
+          <attvalue for="love_den" value="0.18"/>
+        </attvalues>
+      </node>
+    </nodes>
+
+    <edges>
+      <edge id="e1" source="matthew" target="mark"/>
+      <edge id="e2" source="mark" target="luke"/>
+      <edge id="e3" source="luke" target="john"/>
+      <edge id="e4" source="john" target="acts"/>
+      <edge id="e5" source="acts" target="romans"/>
+      <edge id="e6" source="romans" target="first_corinthians"/>
+      <edge id="e7" source="first_corinthians" target="second_corinthians"/>
+      <edge id="e8" source="second_corinthians" target="galatians"/>
+      <edge id="e9" source="galatians" target="ephesians"/>
+      <edge id="e10" source="ephesians" target="philippians"/>
+      <edge id="e11" source="philippians" target="colossians"/>
+      <edge id="e12" source="colossians" target="first_thessalonians"/>
+      <edge id="e13" source="first_thessalonians" target="second_thessalonians"/>
+      <edge id="e14" source="second_thessalonians" target="first_timothy"/>
+      <edge id="e15" source="first_timothy" target="second_timothy"/>
+      <edge id="e16" source="second_timothy" target="titus"/>
+      <edge id="e17" source="titus" target="philemon"/>
+      <edge id="e18" source="philemon" target="hebrews"/>
+      <edge id="e19" source="hebrews" target="james"/>
+      <edge id="e20" source="james" target="first_peter"/>
+      <edge id="e21" source="first_peter" target="second_peter"/>
+      <edge id="e22" source="second_peter" target="first_john"/>
+      <edge id="e23" source="first_john" target="second_john"/>
+      <edge id="e24" source="second_john" target="third_john"/>
+      <edge id="e25" source="third_john" target="jude"/>
+      <edge id="e26" source="jude" target="revelation"/>
+    </edges>
+  </graph>
+</gexf>
