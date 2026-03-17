@@ -66,10 +66,10 @@ for idx, book_id in enumerate(book_order, start=1):
 # Plot attributes vs book index
 # ---------------------------
 plt.figure(figsize=(12, 8))
-plt.plot(book_indices, num_chapters, marker='o', label="num_chapters")
-plt.plot(book_indices, avg_date, marker='s', label="avg_date")
-plt.plot(book_indices, num_hits, marker='^', label="num_hits")
-plt.plot(book_indices, love_den, marker='d', label="love_den")
+plt.plot(book_indices, num_chapters, marker='o', label="Number of Chapters")
+plt.plot(book_indices, avg_date, marker='s', label="Average Date Written")
+plt.plot(book_indices, num_hits, marker='^', label="Number of times love is mention")
+plt.plot(book_indices, love_den, marker='d', label="Love Density")
 
 plt.xticks(book_indices, labels, rotation=90)
 plt.xlabel("New Testament Book")
