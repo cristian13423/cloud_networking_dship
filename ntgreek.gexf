@@ -10,6 +10,11 @@
       <attribute id="avg_date" title="year_when_written" type="integer"/>
       <attribute id="num_hits" title="how_often_it_appears_in_the_text" type="integer"/>
       <attribute id="love_den" title="love_density" type="float"/>
+      <attribute id="agape_hits" title="agape_love_occurrences" type="integer"/>
+      <attribute id="philia_hits" title="philia_love_occurrences" type="integer"/>
+      <attribute id="other_hits" title="other_love_occurrences" type="integer"/>
+      <attribute id="agape_ratio" title="agape_hits / num_hits" type="float"/>
+      <attribute id="philia_ratio" title="philia_hits / num_hits" type="float"/>
     </attributes>
 
     <nodes>
@@ -17,8 +22,13 @@
         <attvalues>
           <attvalue for="num_chapters" value="28"/>
           <attvalue for="avg_date" value="80"/>
-          <attvalue for="num_hits" value="12"/>
+          <attvalue for="num_hits" value="15"/>
           <attvalue for="love_den" value="0.43"/>
+          <attvalue for="agape_hits" value="12"/>
+          <attvalue for="philia_hits" value="2"/>
+          <attvalue for="other_hits" value="1"/>
+          <attvalue for="agape_ratio" value="0.80"/>
+          <attvalue for="philia_ratio" value="0.13"/>
         </attvalues>
       </node>
 
@@ -28,6 +38,11 @@
           <attvalue for="avg_date" value="65"/>
           <attvalue for="num_hits" value="6"/>
           <attvalue for="love_den" value="0.38"/>
+          <attvalue for="agape_hits" value="5"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.83"/>
+          <attvalue for="philia_ratio" value="0.17"/>
         </attvalues>
       </node>
 
@@ -37,6 +52,11 @@
           <attvalue for="avg_date" value="80"/>
           <attvalue for="num_hits" value="14"/>
           <attvalue for="love_den" value="0.58"/>
+          <attvalue for="agape_hits" value="11"/>
+          <attvalue for="philia_hits" value="2"/>
+          <attvalue for="other_hits" value="1"/>
+          <attvalue for="agape_ratio" value="0.79"/>
+          <attvalue for="philia_ratio" value="0.14"/>
         </attvalues>
       </node>
 
@@ -46,6 +66,11 @@
           <attvalue for="avg_date" value="90"/>
           <attvalue for="num_hits" value="39"/>
           <attvalue for="love_den" value="1.86"/>
+          <attvalue for="agape_hits" value="30"/>
+          <attvalue for="philia_hits" value="9"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.77"/>
+          <attvalue for="philia_ratio" value="0.23"/>
         </attvalues>
       </node>
 
@@ -55,6 +80,11 @@
           <attvalue for="avg_date" value="85"/>
           <attvalue for="num_hits" value="7"/>
           <attvalue for="love_den" value="0.25"/>
+          <attvalue for="agape_hits" value="5"/>
+          <attvalue for="philia_hits" value="2"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.71"/>
+          <attvalue for="philia_ratio" value="0.29"/>
         </attvalues>
       </node>
 
@@ -64,6 +94,11 @@
           <attvalue for="avg_date" value="57"/>
           <attvalue for="num_hits" value="17"/>
           <attvalue for="love_den" value="1.06"/>
+          <attvalue for="agape_hits" value="15"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="1"/>
+          <attvalue for="agape_ratio" value="0.88"/>
+          <attvalue for="philia_ratio" value="0.06"/>
         </attvalues>
       </node>
 
@@ -73,6 +108,11 @@
           <attvalue for="avg_date" value="55"/>
           <attvalue for="num_hits" value="16"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="15"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.94"/>
+          <attvalue for="philia_ratio" value="0.06"/>
         </attvalues>
       </node>
 
@@ -82,6 +122,11 @@
           <attvalue for="avg_date" value="56"/>
           <attvalue for="num_hits" value="9"/>
           <attvalue for="love_den" value="0.69"/>
+          <attvalue for="agape_hits" value="8"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.89"/>
+          <attvalue for="philia_ratio" value="0.11"/>
         </attvalues>
       </node>
 
@@ -91,6 +136,11 @@
           <attvalue for="avg_date" value="49"/>
           <attvalue for="num_hits" value="5"/>
           <attvalue for="love_den" value="0.83"/>
+          <attvalue for="agape_hits" value="4"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.80"/>
+          <attvalue for="philia_ratio" value="0.20"/>
         </attvalues>
       </node>
 
@@ -100,6 +150,11 @@
           <attvalue for="avg_date" value="62"/>
           <attvalue for="num_hits" value="16"/>
           <attvalue for="love_den" value="2.67"/>
+          <attvalue for="agape_hits" value="15"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.94"/>
+          <attvalue for="philia_ratio" value="0.06"/>
         </attvalues>
       </node>
 
@@ -109,6 +164,11 @@
           <attvalue for="avg_date" value="61"/>
           <attvalue for="num_hits" value="6"/>
           <attvalue for="love_den" value="1.50"/>
+          <attvalue for="agape_hits" value="5"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.83"/>
+          <attvalue for="philia_ratio" value="0.17"/>
         </attvalues>
       </node>
 
@@ -118,6 +178,11 @@
           <attvalue for="avg_date" value="61"/>
           <attvalue for="num_hits" value="6"/>
           <attvalue for="love_den" value="1.50"/>
+          <attvalue for="agape_hits" value="6"/>
+          <attvalue for="philia_hits" value="0"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="1.00"/>
+          <attvalue for="philia_ratio" value="0.00"/>
         </attvalues>
       </node>
 
@@ -127,6 +192,11 @@
           <attvalue for="avg_date" value="50"/>
           <attvalue for="num_hits" value="5"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="4"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.80"/>
+          <attvalue for="philia_ratio" value="0.20"/>
         </attvalues>
       </node>
 
@@ -136,6 +206,11 @@
           <attvalue for="avg_date" value="51"/>
           <attvalue for="num_hits" value="3"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="3"/>
+          <attvalue for="philia_hits" value="0"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="1.00"/>
+          <attvalue for="philia_ratio" value="0.00"/>
         </attvalues>
       </node>
 
@@ -145,6 +220,11 @@
           <attvalue for="avg_date" value="63"/>
           <attvalue for="num_hits" value="6"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="5"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.83"/>
+          <attvalue for="philia_ratio" value="0.17"/>
         </attvalues>
       </node>
 
@@ -154,6 +234,11 @@
           <attvalue for="avg_date" value="65"/>
           <attvalue for="num_hits" value="4"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="3"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.75"/>
+          <attvalue for="philia_ratio" value="0.25"/>
         </attvalues>
       </node>
 
@@ -163,6 +248,11 @@
           <attvalue for="avg_date" value="63"/>
           <attvalue for="num_hits" value="4"/>
           <attvalue for="love_den" value="1.33"/>
+          <attvalue for="agape_hits" value="3"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.75"/>
+          <attvalue for="philia_ratio" value="0.25"/>
         </attvalues>
       </node>
 
@@ -172,6 +262,11 @@
           <attvalue for="avg_date" value="60"/>
           <attvalue for="num_hits" value="3"/>
           <attvalue for="love_den" value="3.00"/>
+          <attvalue for="agape_hits" value="2"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.67"/>
+          <attvalue for="philia_ratio" value="0.33"/>
         </attvalues>
       </node>
 
@@ -181,6 +276,11 @@
           <attvalue for="avg_date" value="65"/>
           <attvalue for="num_hits" value="6"/>
           <attvalue for="love_den" value="0.46"/>
+          <attvalue for="agape_hits" value="5"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.83"/>
+          <attvalue for="philia_ratio" value="0.17"/>
         </attvalues>
       </node>
 
@@ -190,6 +290,11 @@
           <attvalue for="avg_date" value="48"/>
           <attvalue for="num_hits" value="3"/>
           <attvalue for="love_den" value="0.60"/>
+          <attvalue for="agape_hits" value="2"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.67"/>
+          <attvalue for="philia_ratio" value="0.33"/>
         </attvalues>
       </node>
 
@@ -199,6 +304,11 @@
           <attvalue for="avg_date" value="64"/>
           <attvalue for="num_hits" value="8"/>
           <attvalue for="love_den" value="1.60"/>
+          <attvalue for="agape_hits" value="7"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.88"/>
+          <attvalue for="philia_ratio" value="0.12"/>
         </attvalues>
       </node>
 
@@ -208,6 +318,11 @@
           <attvalue for="avg_date" value="68"/>
           <attvalue for="num_hits" value="2"/>
           <attvalue for="love_den" value="0.67"/>
+          <attvalue for="agape_hits" value="2"/>
+          <attvalue for="philia_hits" value="0"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="1.00"/>
+          <attvalue for="philia_ratio" value="0.00"/>
         </attvalues>
       </node>
 
@@ -217,6 +332,11 @@
           <attvalue for="avg_date" value="95"/>
           <attvalue for="num_hits" value="46"/>
           <attvalue for="love_den" value="9.20"/>
+          <attvalue for="agape_hits" value="43"/>
+          <attvalue for="philia_hits" value="3"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.93"/>
+          <attvalue for="philia_ratio" value="0.07"/>
         </attvalues>
       </node>
 
@@ -226,6 +346,11 @@
           <attvalue for="avg_date" value="95"/>
           <attvalue for="num_hits" value="5"/>
           <attvalue for="love_den" value="5.00"/>
+          <attvalue for="agape_hits" value="4"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.80"/>
+          <attvalue for="philia_ratio" value="0.20"/>
         </attvalues>
       </node>
 
@@ -235,6 +360,11 @@
           <attvalue for="avg_date" value="95"/>
           <attvalue for="num_hits" value="3"/>
           <attvalue for="love_den" value="3.00"/>
+          <attvalue for="agape_hits" value="2"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.67"/>
+          <attvalue for="philia_ratio" value="0.33"/>
         </attvalues>
       </node>
 
@@ -244,6 +374,11 @@
           <attvalue for="avg_date" value="65"/>
           <attvalue for="num_hits" value="1"/>
           <attvalue for="love_den" value="1.00"/>
+          <attvalue for="agape_hits" value="1"/>
+          <attvalue for="philia_hits" value="0"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="1.00"/>
+          <attvalue for="philia_ratio" value="0.00"/>
         </attvalues>
       </node>
 
@@ -253,6 +388,11 @@
           <attvalue for="avg_date" value="96"/>
           <attvalue for="num_hits" value="4"/>
           <attvalue for="love_den" value="0.18"/>
+          <attvalue for="agape_hits" value="3"/>
+          <attvalue for="philia_hits" value="1"/>
+          <attvalue for="other_hits" value="0"/>
+          <attvalue for="agape_ratio" value="0.75"/>
+          <attvalue for="philia_ratio" value="0.25"/>
         </attvalues>
       </node>
     </nodes>
