@@ -1,2 +1,19 @@
 `https://github.com/steinwurf/kodo-ns3-examples`
 May have a good example of NS-3 simulation demos.
+
+Idea:
+- How many times is Jesus mentioned as God?
+- 1) Gather data. Let's restrict our study to the New Testament
+    - How many sentences are there in the NT?
+    - Need to store verse references for the following:
+        - How many of those sentences mention Jesus' name?
+        - How many of those sentences mention the word "Christ"
+        - How many of those sentences mention the word God?
+        - How many sentences does Jesus speak?
+            - How many of those sentences contain the word "Father"
+            - How many of those sentences does Jesus say God or Christ
+            - how do you account for outliers that slip through our filters, such as when Jesus says "I AM"
+
+- Your histogram/bar chart would have a bar for the number of sentences in each category. You could overlap bars based on what percentage of them are affirming Jesus' deity.
+    - bar pairs for a speaker's sentences, and a second overlapping bar for how many times they mention Jesus - 
+    - then from that bar of mentions of Jesus, how many of them contain another trinity member? another pair!
