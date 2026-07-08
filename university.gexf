@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3">
+  <meta lastmodifieddate="2026-03-08">
+    <creator>ChatGPT</creator>
+    <description>University Computing Network Architecture</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="ip" title="ip" type="string"/>
+      <attribute id="cores" title="cores" type="integer"/>
+      <attribute id="ram_gb" title="ram_gb" type="integer"/>
+      <attribute id="gpus" title="gpus" type="integer"/>
+      <attribute id="traffic_gbps" title="traffic_gbps" type="float"/>
+      <attribute id="protocol" title="protocol" type="string"/>
+      <attribute id="role" title="role" type="string"/>
+      <attribute id="users" title="users" type="integer"/>
+      <attribute id="read_speed_mb_s" title="read_speed_mb_s" type="float"/>
+      <attribute id="write_speed_mb_s" title="write_speed_mb_s" type="float"/>
+      <attribute id="capacity_tb" title="capacity_tb" type="float"/>
+    </attributes>
+    
+    <nodes>
+      <node id="core_switch" label="Core Switch">
+        <attvalues>
+          <attvalue for="type" value="switch"/>
+          <attvalue for="ip" value="10.0.0.1"/>
+          <attvalue for="traffic_gbps" value="400"/>
+          <attvalue for="protocol" value="Ethernet"/>
+        </attvalues>
+      </node>
+
+      <node id="router_1" label="Campus Router 1">
+        <attvalues>
+          <attvalue for="type" value="router"/>
+          <attvalue for="ip" value="10.0.1.1"/>
+          <attvalue for="traffic_gbps" value="100"/>
+          <attvalue for="protocol" value="OSPF"/>
+        </attvalues>
+      </node>
+
+      <node id="firewall_1" label="Firewall">
+        <attvalues>
+          <attvalue for="type" value="firewall"/>
+          <attvalue for="ip" value="10.0.2.1"/>
+          <attvalue for="traffic_gbps" value="50"/>
+          <attvalue for="protocol" value="ACL"/>
+        </attvalues>
+      </node>
+
+      <node id="eng_lab" label="Engineering Lab">
+        <attvalues>
+          <attvalue for="type" value="lab"/>
+          <attvalue for="users" value="30"/>
+          <attvalue for="traffic_gbps" value="0.5"/>
+        </attvalues>
+      </node>
+
+      <node id="ai_lab" label="AI Lab">
+        <attvalues>
+          <attvalue for="type" value="lab"/>
+          <attvalue for="users" value="20"/>
+          <attvalue for="traffic_gbps" value="0.6"/>
+        </attvalues>
+      </node>
+
+      <node id="vr_lab" label="VR Lab">
+        <attvalues>
+          <attvalue for="type" value="lab"/>
+          <attvalue for="users" value="15"/>
+          <attvalue for="traffic_gbps" value="0.4"/>
+        </attvalues>
+      </node>
+
+      <node id="robotics_lab" label="Robotics Lab">
+        <attvalues>
+          <attvalue for="type" value="lab"/>
+          <attvalue for="users" value="25"/>
+          <attvalue for="traffic_gbps" value="0.55"/>
+        </attvalues>
+      </node>
+
+      <node id="storage_nas_1" label="NAS Storage 1">
+        <attvalues>
+          <attvalue for="type" value="storage"/>
+          <attvalue for="capacity_tb" value="500"/>
+          <attvalue for="read_speed_mb_s" value="2500"/>
+          <attvalue for="write_speed_mb_s" value="1800"/>
+          <attvalue for="protocol" value="NFS"/>
+        </attvalues>
+      </node>
+
+      <node id="storage_san_1" label="SAN Storage 1">
+        <attvalues>
+          <attvalue for="type" value="storage"/>
+          <attvalue for="capacity_tb" value="2000"/>
+          <attvalue for="read_speed_mb_s" value="5000"/>
+          <attvalue for="write_speed_mb_s" value="4000"/>
+          <attvalue for="protocol" value="iSCSI"/>
+        </attvalues>
+      </node>
+
+      <node id="user_1" label="Alice (Student)">
+        <attvalues>
+          <attvalue for="type" value="user"/>
+          <attvalue for="role" value="student"/>
+          <attvalue for="ip" value="10.1.0.10"/>
+        </attvalues>
+      </node>
+
+      <node id="user_2" label="Bob (Faculty)">
+        <attvalues>
+          <attvalue for="type" value="user"/>
+          <attvalue for="role" value="faculty"/>
+          <attvalue for="ip" value="10.1.0.11"/>
+        </attvalues>
+      </node>
+
+      <node id="user_3" label="Charlie (Admin)">
+        <attvalues>
+          <attvalue for="type" value="user"/>
+          <attvalue for="role" value="admin"/>
+          <attvalue for="ip" value="10.1.0.12"/>
+        </attvalues>
+      </node>
+
+      <node id="cluster_hpc_1" label="HPC Cluster 1">
+        <attvalues>
+          <attvalue for="type" value="cluster"/>
+          <attvalue for="nodes" value="24"/>
+          <attvalue for="cores" value="48"/>
+          <attvalue for="ram_gb" value="512"/>
+          <attvalue for="traffic_gbps" value="100"/>
+          <attvalue for="protocol" value="InfiniBand"/>
+        </attvalues>
+      </node>
+
+      <node id="cluster_hpc_2" label="HPC Cluster 2">
+        <attvalues>
+          <attvalue for="type" value="cluster"/>
+          <attvalue for="nodes" value="16"/>
+          <attvalue for="cores" value="64"/>
+          <attvalue for="ram_gb" value="1024"/>
+          <attvalue for="traffic_gbps" value="200"/>
+          <attvalue for="protocol" value="InfiniBand"/>
+        </attvalues>
+      </node>
+
+      <node id="cluster_ai" label="AI GPU Cluster">
+        <attvalues>
+          <attvalue for="type" value="cluster"/>
+          <attvalue for="nodes" value="12"/>
+          <attvalue for="gpus" value="8"/>
+          <attvalue for="ram_gb" value="256"/>
+          <attvalue for="traffic_gbps" value="150"/>
+          <attvalue for="protocol" value="NVLink"/>
+        </attvalues>
+      </node>
+    </nodes>
+
+    <edges>
+      <edge id="e1" source="user_1" target="core_switch"/>
+      <edge id="e2" source="user_2" target="core_switch"/>
+      <edge id="e3" source="user_3" target="core_switch"/>
+      <edge id="e4" source="eng_lab" target="core_switch"/>
+      <edge id="e5" source="ai_lab" target="core_switch"/>
+      <edge id="e6" source="vr_lab" target="core_switch"/>
+      <edge id="e7" source="robotics_lab" target="core_switch"/>
+      <edge id="e8" source="storage_nas_1" target="core_switch"/>
+      <edge id="e9" source="storage_san_1" target="core_switch"/>
+      <edge id="e10" source="cluster_hpc_1" target="core_switch"/>
+      <edge id="e11" source="cluster_hpc_2" target="core_switch"/>
+      <edge id="e12" source="cluster_ai" target="core_switch"/>
+      <edge id="e13" source="core_switch" target="router_1"/>
+      <edge id="e14" source="core_switch" target="firewall_1"/>
+    </edges>
+  </graph>
+</gexf>
